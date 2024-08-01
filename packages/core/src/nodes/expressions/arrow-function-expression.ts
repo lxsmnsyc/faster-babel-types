@@ -7,7 +7,7 @@ const TYPE = 'ArrowFunctionExpression';
 export function arrowFunctionExpression(
   params: Array<t.Identifier | t.Pattern | t.RestElement>,
   body: t.BlockStatement | t.Expression,
-  async = false,
+  async: boolean,
 ): t.ArrowFunctionExpression {
   return {
     type: TYPE,

@@ -17,7 +17,7 @@ export type UnaryExpressionOperator =
 export function unaryExpression(
   operator: UnaryExpressionOperator,
   argument: t.Expression,
-  prefix = true,
+  prefix: boolean,
 ): t.UnaryExpression {
   return {
     type: TYPE,
