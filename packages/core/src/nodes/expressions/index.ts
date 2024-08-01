@@ -11,5 +11,6 @@ export * from './member-expression';
 export * from './new-expression';
 export * from './null-literal';
 export * from './numeric-literal';
+export * from './object-expression';
 export * from './regexp-literal';
 export * from './string-literal';
