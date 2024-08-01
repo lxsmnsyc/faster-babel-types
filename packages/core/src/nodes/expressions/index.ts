@@ -5,5 +5,6 @@ export * from './call-expression';
 export * from './conditional-expression';
 export * from './function-expression';
 export * from './identifier';
+export * from './null-literal';
 export * from './numeric-literal';
 export * from './string-literal';
