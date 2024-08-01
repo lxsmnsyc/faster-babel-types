@@ -11,6 +11,7 @@ export * from './identifier';
 export * from './import-expression';
 export * from './logical-expression';
 export * from './member-expression';
+export * from './meta-property';
 export * from './new-expression';
 export * from './null-literal';
 export * from './numeric-literal';
