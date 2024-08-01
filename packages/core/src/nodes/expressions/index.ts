@@ -9,6 +9,7 @@ export * from './boolean-literal';
 export * from './call-expression';
 export * from './class-expression';
 export * from './conditional-expression';
+export * from './decimal-literal';
 export * from './do-expression';
 export * from './function-expression';
 export * from './identifier';
