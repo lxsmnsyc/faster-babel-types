@@ -6,6 +6,7 @@ export * from './continue-statement';
 export * from './debugger-statement';
 export * from './do-while-statement';
 export * from './empty-statement';
+export * from './export-all-declaration';
 export * from './expression-statement';
 export * from './for-in-statement';
 export * from './for-of-statement';
