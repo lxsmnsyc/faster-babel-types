@@ -29,6 +29,7 @@ export * from './optional-call-expression';
 export * from './optional-member-expression';
 export * from './parenthesized-expression';
 export * from './pipeline-bare-function';
+export * from './pipeline-primary-topic-reference';
 export * from './pipeline-topic-expression';
 export * from './record-expression';
 export * from './regexp-literal';
