@@ -12,6 +12,7 @@ export * from './new-expression';
 export * from './null-literal';
 export * from './numeric-literal';
 export * from './object-expression';
+export * from './parenthesized-expression';
 export * from './regexp-literal';
 export * from './sequence-expression';
 export * from './string-literal';
