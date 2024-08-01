@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'ArrayExpression';
 
 export function arrayExpression(
-  elements: Array<null | t.Expression | t.SpreadElement>,
+  elements: Array<null | t.Expression | t.SpreadElement> = [],
 ): t.ArrayExpression {
   return {
     type: TYPE,
