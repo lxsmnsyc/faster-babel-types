@@ -5,3 +5,4 @@ export * from './debugger-statement';
 export * from './do-while-statement';
 export * from './empty-statement';
 export * from './expression-statement';
+export * from './for-in-statement';
