@@ -16,3 +16,4 @@ export * from './switch-statement';
 export * from './throw-statement';
 export * from './try-statement';
 export * from './variable-declaration';
+export * from './while-statement';
