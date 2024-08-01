@@ -2,27 +2,23 @@ import type * as t from '@babel/types';
 import { assert } from '../../assert-node-type';
 import { is } from '../../is-node-type';
 
-const TYPE = 'DoExpression';
+const TYPE = 'ModuleExpression';
 
-export function doExpression(
-  body: t.BlockStatement,
-  async: boolean,
-): t.DoExpression {
+export function moduleExpression(body: t.Program): t.ModuleExpression {
   return {
     type: TYPE,
     body,
-    async,
   };
 }
 
-export function isDoExpression(
+export function isModuleExpression(
   node: t.Node | null | undefined,
-): node is t.DoExpression {
+): node is t.ModuleExpression {
   return is(TYPE, node);
 }
 
-export function assertDoExpression(
+export function assertModuleExpression(
   node: t.Node | null | undefined,
-): asserts node is t.DoExpression {
+): asserts node is t.ModuleExpression {
   assert(TYPE, node);
 }

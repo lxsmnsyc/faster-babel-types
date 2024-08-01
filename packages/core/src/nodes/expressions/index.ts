@@ -20,6 +20,7 @@ export * from './jsx-fragment';
 export * from './logical-expression';
 export * from './member-expression';
 export * from './meta-property';
+export * from './module-expression';
 export * from './new-expression';
 export * from './null-literal';
 export * from './numeric-literal';
