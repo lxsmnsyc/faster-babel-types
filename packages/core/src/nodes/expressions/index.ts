@@ -9,6 +9,7 @@ export * from './class-expression';
 export * from './conditional-expression';
 export * from './function-expression';
 export * from './identifier';
+export * from './import';
 export * from './import-expression';
 export * from './logical-expression';
 export * from './member-expression';
