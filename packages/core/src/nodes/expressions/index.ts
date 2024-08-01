@@ -1,6 +1,7 @@
 export * from './array-expression';
 export * from './arrow-function-expression';
 export * from './assignment-expression';
+export * from './await-expression';
 export * from './binary-expression';
 export * from './boolean-literal';
 export * from './call-expression';
