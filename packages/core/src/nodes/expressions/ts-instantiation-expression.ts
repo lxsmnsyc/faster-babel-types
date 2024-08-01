@@ -6,7 +6,7 @@ const TYPE = 'TSInstantiationExpression';
 
 export function tsInstantiationExpression(
   expression: t.Expression,
-  typeParameters?: t.TSTypeParameterInstantiation | null,
+  typeParameters: t.TSTypeParameterInstantiation | null = null,
 ): t.TSInstantiationExpression {
   return {
     type: TYPE,

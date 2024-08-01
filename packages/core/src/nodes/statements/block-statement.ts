@@ -6,7 +6,7 @@ const TYPE = 'BlockStatement';
 
 export function blockStatement(
   body: t.Statement[],
-  directives: t.Directive[],
+  directives: t.Directive[] = [],
 ): t.BlockStatement {
   return {
     type: TYPE,

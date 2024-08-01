@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'TupleExpression';
 
 export function tupleExpression(
-  elements: Array<t.Expression | t.SpreadElement>,
+  elements: Array<t.Expression | t.SpreadElement> = [],
 ): t.TupleExpression {
   return {
     type: TYPE,

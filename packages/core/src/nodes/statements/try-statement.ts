@@ -6,8 +6,8 @@ const TYPE = 'TryStatement';
 
 export function tryStatement(
   block: t.BlockStatement,
-  handler?: t.CatchClause | null,
-  finalizer?: t.BlockStatement | null,
+  handler: t.CatchClause | null = null,
+  finalizer: t.BlockStatement | null = null,
 ): t.TryStatement {
   return {
     type: TYPE,

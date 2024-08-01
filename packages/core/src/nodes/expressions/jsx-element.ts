@@ -6,7 +6,7 @@ const TYPE = 'JSXElement';
 
 export function jsxElement(
   openingElement: t.JSXOpeningElement,
-  closingElement: t.JSXClosingElement | null | undefined,
+  closingElement: t.JSXClosingElement | null,
   children: Array<
     | t.JSXText
     | t.JSXExpressionContainer
@@ -14,7 +14,7 @@ export function jsxElement(
     | t.JSXElement
     | t.JSXFragment
   >,
-  selfClosing?: boolean | null,
+  selfClosing: boolean | null = null,
 ): t.JSXElement {
   return {
     type: TYPE,

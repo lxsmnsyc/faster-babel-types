@@ -5,9 +5,9 @@ import { is } from '../../is-node-type';
 const TYPE = 'ForStatement';
 
 export function forStatement(
-  init: t.VariableDeclaration | t.Expression | null | undefined,
-  test: t.Expression | null | undefined,
-  update: t.Expression | null | undefined,
+  init: t.VariableDeclaration | t.Expression | null,
+  test: t.Expression | null,
+  update: t.Expression | null,
   body: t.Statement,
 ): t.ForStatement {
   return {

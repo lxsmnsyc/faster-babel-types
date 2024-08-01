@@ -5,11 +5,11 @@ import { is } from '../../is-node-type';
 const TYPE = 'FunctionExpression';
 
 export function functionExpression(
-  id: t.Identifier | null | undefined,
+  id: t.Identifier | null,
   params: Array<t.Identifier | t.Pattern | t.RestElement>,
   body: t.BlockStatement,
-  generator: boolean,
-  async: boolean,
+  generator = false,
+  async = false,
 ): t.FunctionExpression {
   return {
     type: TYPE,

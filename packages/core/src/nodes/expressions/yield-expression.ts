@@ -5,8 +5,8 @@ import { is } from '../../is-node-type';
 const TYPE = 'YieldExpression';
 
 export function yieldExpression(
-  argument: t.Expression | null | undefined,
-  delegate: boolean,
+  argument: t.Expression | null = null,
+  delegate = false,
 ): t.YieldExpression {
   return {
     type: TYPE,

@@ -5,11 +5,11 @@ import { is } from '../../is-node-type';
 const TYPE = 'FunctionDeclaration';
 
 export function functionDeclaration(
-  id: t.Identifier | null | undefined,
+  id: t.Identifier | null,
   params: Array<t.Identifier | t.Pattern | t.RestElement>,
   body: t.BlockStatement,
-  generator: boolean,
-  async: boolean,
+  generator = false,
+  async = false,
 ): t.FunctionDeclaration {
   return {
     type: TYPE,

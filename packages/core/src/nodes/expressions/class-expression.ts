@@ -5,10 +5,10 @@ import { is } from '../../is-node-type';
 const TYPE = 'ClassExpression';
 
 export function classExpression(
-  id: t.Identifier | null | undefined,
-  superClass: t.Expression | null | undefined,
+  id: t.Identifier | null,
+  superClass: t.Expression | null,
   body: t.ClassBody,
-  decorators?: t.Decorator[] | null,
+  decorators: t.Decorator[] | null = null,
 ): t.ClassExpression {
   return {
     type: TYPE,

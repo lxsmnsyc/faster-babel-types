@@ -6,7 +6,7 @@ const TYPE = 'DoExpression';
 
 export function doExpression(
   body: t.BlockStatement,
-  async: boolean,
+  async = false,
 ): t.DoExpression {
   return {
     type: TYPE,

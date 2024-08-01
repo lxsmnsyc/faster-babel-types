@@ -9,7 +9,7 @@ export type UpdateExpressionOperator = '++' | '--';
 export function updateExpression(
   operator: UpdateExpressionOperator,
   argument: t.Expression,
-  prefix: boolean,
+  prefix = false,
 ): t.UpdateExpression {
   return {
     type: TYPE,

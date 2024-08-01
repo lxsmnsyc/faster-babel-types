@@ -7,8 +7,8 @@ const TYPE = 'MemberExpression';
 export function memberExpression(
   object: t.Expression | t.Super,
   property: t.Expression | t.Identifier | t.PrivateName,
-  computed: boolean,
-  optional: boolean,
+  computed = false,
+  optional = false,
 ): t.MemberExpression {
   return {
     type: TYPE,

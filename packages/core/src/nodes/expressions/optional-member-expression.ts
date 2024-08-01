@@ -7,8 +7,8 @@ const TYPE = 'OptionalMemberExpression';
 export function optionalMemberExpression(
   object: t.Expression,
   property: t.Expression | t.Identifier,
-  computed: boolean,
-  optional: boolean,
+  computed = false,
+  optional = false,
 ): t.OptionalMemberExpression {
   return {
     type: TYPE,
