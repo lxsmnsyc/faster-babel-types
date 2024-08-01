@@ -7,6 +7,7 @@ export * from './conditional-expression';
 export * from './function-expression';
 export * from './identifier';
 export * from './logical-expression';
+export * from './member-expression';
 export * from './null-literal';
 export * from './numeric-literal';
 export * from './regexp-literal';
