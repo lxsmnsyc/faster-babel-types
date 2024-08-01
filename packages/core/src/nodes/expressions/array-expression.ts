@@ -1,16 +1,19 @@
-import * as t from "@babel/types";
+import type * as t from '@babel/types';
+import { is } from '../../is';
+
+const TYPE = 'ArrayExpression';
 
 export function arrayExpression(
-	elements: Array<null | t.Expression | t.SpreadElement>,
+  elements: Array<null | t.Expression | t.SpreadElement>,
 ): t.ArrayExpression {
-	return {
-		type: "ArrayExpression",
-		elements,
-	};
+  return {
+    type: TYPE,
+    elements,
+  };
 }
 
 export function isArrayExpression(
-	node: t.Node | null | undefined,
+  node: t.Node | null | undefined,
 ): node is t.ArrayExpression {
-	return node != null && node.type === "ArrayExpression";
+  return is(TYPE, node);
 }
