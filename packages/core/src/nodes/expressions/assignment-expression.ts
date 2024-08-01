@@ -4,7 +4,7 @@ import { is } from '../../is-node-type';
 
 const TYPE = 'AssignmentExpression';
 
-export function AssignmentExpression(
+export function assignmentExpression(
   operator: string,
   left: t.LVal | t.OptionalMemberExpression,
   right: t.Expression,
