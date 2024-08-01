@@ -28,6 +28,7 @@ export * from './object-expression';
 export * from './optional-call-expression';
 export * from './optional-member-expression';
 export * from './parenthesized-expression';
+export * from './pipeline-topic-expression';
 export * from './record-expression';
 export * from './regexp-literal';
 export * from './sequence-expression';
