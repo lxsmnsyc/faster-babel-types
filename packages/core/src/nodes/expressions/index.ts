@@ -19,6 +19,7 @@ export * from './new-expression';
 export * from './null-literal';
 export * from './numeric-literal';
 export * from './object-expression';
+export * from './optional-call-expression';
 export * from './optional-member-expression';
 export * from './parenthesized-expression';
 export * from './regexp-literal';
