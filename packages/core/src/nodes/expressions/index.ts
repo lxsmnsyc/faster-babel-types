@@ -26,3 +26,4 @@ export * from './template-literal';
 export * from './this-expression';
 export * from './unary-expression';
 export * from './update-expression';
+export * from './yield-expression';
