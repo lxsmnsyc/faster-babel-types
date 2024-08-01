@@ -1,5 +1,6 @@
 import type * as t from '@babel/types';
-import { is } from '../../is';
+import { assert } from '../../assert-node-type';
+import { is } from '../../is-node-type';
 
 const TYPE = 'ArrayExpression';
 
@@ -16,4 +17,10 @@ export function isArrayExpression(
   node: t.Node | null | undefined,
 ): node is t.ArrayExpression {
   return is(TYPE, node);
+}
+
+export function assertArrayExpression(
+  node: t.Node | null | undefined,
+): asserts node is t.ArrayExpression {
+  assert(TYPE, node);
 }

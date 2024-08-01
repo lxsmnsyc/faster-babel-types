@@ -1,5 +1,6 @@
 import type * as t from '@babel/types';
-import { is } from '../../is';
+import { assert } from '../../assert-node-type';
+import { is } from '../../is-node-type';
 
 const TYPE = 'AssignmentExpression';
 
@@ -20,4 +21,10 @@ export function isAssignmentExpression(
   node: t.Node | null | undefined,
 ): node is t.AssignmentExpression {
   return is(TYPE, node);
+}
+
+export function assertAssignmentExpression(
+  node: t.Node | null | undefined,
+): asserts node is t.AssignmentExpression {
+  assert(TYPE, node);
 }
