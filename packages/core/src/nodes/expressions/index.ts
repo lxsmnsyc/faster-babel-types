@@ -4,6 +4,7 @@ export * from './assignment-expression';
 export * from './await-expression';
 export * from './bigint-literal';
 export * from './binary-expression';
+export * from './bind-expression';
 export * from './boolean-literal';
 export * from './call-expression';
 export * from './class-expression';
