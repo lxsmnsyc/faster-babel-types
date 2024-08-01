@@ -34,6 +34,7 @@ export * from './super';
 export * from './tagged-template-expression';
 export * from './template-literal';
 export * from './this-expression';
+export * from './tuple-expression';
 export * from './typecast-expression';
 export * from './unary-expression';
 export * from './update-expression';
