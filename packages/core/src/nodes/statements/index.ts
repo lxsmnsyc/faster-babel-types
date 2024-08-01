@@ -8,4 +8,5 @@ export * from './expression-statement';
 export * from './for-in-statement';
 export * from './for-of-statement';
 export * from './for-statement';
+export * from './return-statement';
 export * from './throw-statement';
