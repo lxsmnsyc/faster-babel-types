@@ -36,6 +36,7 @@ export * from './tagged-template-expression';
 export * from './template-literal';
 export * from './this-expression';
 export * from './ts-non-null-expression';
+export * from './ts-type-assertion';
 export * from './tuple-expression';
 export * from './typecast-expression';
 export * from './unary-expression';
