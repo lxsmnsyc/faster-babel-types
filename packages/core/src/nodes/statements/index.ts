@@ -6,3 +6,4 @@ export * from './do-while-statement';
 export * from './empty-statement';
 export * from './expression-statement';
 export * from './for-in-statement';
+export * from './for-of-statement';
