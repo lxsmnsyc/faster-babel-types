@@ -14,3 +14,4 @@ export * from './labeled-statement';
 export * from './return-statement';
 export * from './switch-statement';
 export * from './throw-statement';
+export * from './try-statement';
