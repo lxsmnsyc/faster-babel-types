@@ -1,4 +1,4 @@
-// InterfaceDeclaration | OpaqueType | TypeAlias | EnumDeclaration | TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
+// OpaqueType | TypeAlias | EnumDeclaration | TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
@@ -25,6 +25,7 @@ export * from './for-statement';
 export * from './function-declaration';
 export * from './if-statement';
 export * from './import-declaration';
+export * from './interface-declaration';
 export * from './labeled-statement';
 export * from './return-statement';
 export * from './switch-statement';

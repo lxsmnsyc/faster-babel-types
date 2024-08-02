@@ -4,13 +4,6 @@ import { is } from '../../is-node-type';
 
 const TYPE = 'ImportDeclaration';
 
-export type ImportDeclarationKind =
-  | 'var'
-  | 'let'
-  | 'const'
-  | 'using'
-  | 'await using';
-
 export function importDeclaration(
   specifiers: Array<
     t.ImportSpecifier | t.ImportDefaultSpecifier | t.ImportNamespaceSpecifier
