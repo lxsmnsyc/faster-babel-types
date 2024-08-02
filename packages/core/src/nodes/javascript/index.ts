@@ -2,6 +2,7 @@ export * from './argument-placeholder';
 export * from './array-pattern';
 export * from './assignment-pattern';
 export * from './class-body';
+export * from './class-method';
 export * from './decorator';
 export * from './directive';
 export * from './directive-literal';
