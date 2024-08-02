@@ -3,6 +3,7 @@ export * from './assignment-pattern';
 export * from './directive';
 export * from './directive-literal';
 export * from './object-pattern';
+export * from './object-property';
 export * from './private-name';
 export * from './rest-element';
 export * from './spread-element';
