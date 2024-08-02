@@ -1,4 +1,4 @@
-// TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
+// TSExportAssignment | TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
@@ -35,6 +35,7 @@ export * from './throw-statement';
 export * from './try-statement';
 export * from './ts-declare-function';
 export * from './ts-enum-declaration';
+export * from './ts-export-assignment';
 export * from './ts-import-equals-declaration';
 export * from './ts-interface-declaration';
 export * from './ts-module-declaration';
