@@ -7,7 +7,7 @@ const TYPE = 'ClassMethod';
 export type ClassMethodKind = 'get' | 'set' | 'method' | 'constructor';
 
 export function classMethod(
-  kind: 'get' | 'set' | 'method' | 'constructor',
+  kind: ClassMethodKind,
   key:
     | t.Identifier
     | t.StringLiteral
