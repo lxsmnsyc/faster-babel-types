@@ -1,4 +1,4 @@
-// TSExportAssignment | TSNamespaceExportDeclaration
+// TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
@@ -39,6 +39,7 @@ export * from './ts-export-assignment';
 export * from './ts-import-equals-declaration';
 export * from './ts-interface-declaration';
 export * from './ts-module-declaration';
+export * from './ts-namespace-export-declaration';
 export * from './ts-type-alias-declaration';
 export * from './type-alias';
 export * from './variable-declaration';
