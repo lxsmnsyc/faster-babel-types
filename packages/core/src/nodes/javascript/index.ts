@@ -4,6 +4,7 @@ export * from './assignment-pattern';
 export * from './class-body';
 export * from './class-method';
 export * from './class-private-method';
+export * from './class-private-property';
 export * from './class-property';
 export * from './decorator';
 export * from './directive';
