@@ -1,4 +1,4 @@
-// TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
+// TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
@@ -33,6 +33,7 @@ export * from './return-statement';
 export * from './switch-statement';
 export * from './throw-statement';
 export * from './try-statement';
+export * from './ts-declare-function';
 export * from './type-alias';
 export * from './variable-declaration';
 export * from './while-statement';
