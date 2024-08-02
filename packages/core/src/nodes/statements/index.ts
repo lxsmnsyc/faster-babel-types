@@ -9,6 +9,7 @@ export * from './declare-function';
 export * from './declare-interface';
 export * from './declare-module';
 export * from './declare-module-exports';
+export * from './declare-opaque-type';
 export * from './declare-type-alias';
 export * from './do-while-statement';
 export * from './empty-statement';
