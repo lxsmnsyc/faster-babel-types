@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'FunctionExpression';
 
 export function functionExpression(
-  id: t.Identifier | null,
+  id: t.Identifier | null | undefined,
   params: Array<t.Identifier | t.Pattern | t.RestElement>,
   body: t.BlockStatement,
   generator = false,

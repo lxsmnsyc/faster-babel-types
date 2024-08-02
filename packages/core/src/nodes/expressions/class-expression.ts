@@ -5,8 +5,8 @@ import { is } from '../../is-node-type';
 const TYPE = 'ClassExpression';
 
 export function classExpression(
-  id: t.Identifier | null,
-  superClass: t.Expression | null,
+  id: t.Identifier | null | undefined,
+  superClass: t.Expression | null | undefined,
   body: t.ClassBody,
   decorators: t.Decorator[] | null = null,
 ): t.ClassExpression {

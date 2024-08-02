@@ -6,7 +6,7 @@ const TYPE = 'JSXElement';
 
 export function jsxElement(
   openingElement: t.JSXOpeningElement,
-  closingElement: t.JSXClosingElement | null,
+  closingElement: t.JSXClosingElement | null | undefined,
   children: Array<
     | t.JSXText
     | t.JSXExpressionContainer
