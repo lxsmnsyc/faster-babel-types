@@ -1,4 +1,4 @@
-// EnumDeclaration | TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
+// TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
@@ -16,6 +16,7 @@ export * from './declare-type-alias';
 export * from './declare-variable';
 export * from './do-while-statement';
 export * from './empty-statement';
+export * from './enum-declaration';
 export * from './export-all-declaration';
 export * from './export-named-declaration';
 export * from './expression-statement';
