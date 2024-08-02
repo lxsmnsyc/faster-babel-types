@@ -27,6 +27,7 @@ export * from './if-statement';
 export * from './import-declaration';
 export * from './interface-declaration';
 export * from './labeled-statement';
+export * from './opaque-type';
 export * from './return-statement';
 export * from './switch-statement';
 export * from './throw-statement';
