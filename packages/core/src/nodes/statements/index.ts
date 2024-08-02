@@ -14,6 +14,7 @@ export * from './for-of-statement';
 export * from './for-statement';
 export * from './function-declaration';
 export * from './if-statement';
+export * from './import-declaration';
 export * from './labeled-statement';
 export * from './return-statement';
 export * from './switch-statement';
