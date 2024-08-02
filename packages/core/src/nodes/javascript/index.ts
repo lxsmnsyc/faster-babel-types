@@ -1,6 +1,7 @@
 export * from './argument-placeholder';
 export * from './array-pattern';
 export * from './assignment-pattern';
+export * from './class-accessor-property';
 export * from './class-body';
 export * from './class-method';
 export * from './class-private-method';
