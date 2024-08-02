@@ -34,6 +34,7 @@ export * from './switch-statement';
 export * from './throw-statement';
 export * from './try-statement';
 export * from './ts-declare-function';
+export * from './ts-interface-declaration';
 export * from './type-alias';
 export * from './variable-declaration';
 export * from './while-statement';
