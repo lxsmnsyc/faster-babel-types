@@ -1,10 +1,11 @@
-// DeclareExportDeclaration | DeclareExportAllDeclaration | InterfaceDeclaration | OpaqueType | TypeAlias | EnumDeclaration | TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
+// InterfaceDeclaration | OpaqueType | TypeAlias | EnumDeclaration | TSDeclareFunction | TSInterfaceDeclaration | TSTypeAliasDeclaration | TSEnumDeclaration | TSModuleDeclaration | TSImportEqualsDeclaration | TSExportAssignment | TSNamespaceExportDeclaration
 export * from './block-statement';
 export * from './break-statement';
 export * from './class-declaration';
 export * from './continue-statement';
 export * from './debugger-statement';
 export * from './declare-class';
+export * from './declare-export-all-declaration';
 export * from './declare-export-declaration';
 export * from './declare-function';
 export * from './declare-interface';
