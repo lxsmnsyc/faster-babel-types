@@ -15,4 +15,5 @@ export * from './object-property';
 export * from './private-name';
 export * from './rest-element';
 export * from './spread-element';
+export * from './static-block';
 export * from './v8-intrinsic-identifier';
