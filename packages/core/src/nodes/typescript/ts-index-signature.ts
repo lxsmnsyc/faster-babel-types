@@ -6,7 +6,7 @@ const TYPE = 'TSIndexSignature';
 
 export function tsIndexSignature(
   parameters: t.Identifier[],
-  typeAnnotation: t.TSTypeAnnotation | null = null,
+  typeAnnotation: t.TSTypeAnnotation | null | undefined = null,
 ): t.TSIndexSignature {
   return {
     type: TYPE,
