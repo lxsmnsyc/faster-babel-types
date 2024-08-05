@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'ContinueStatement';
 
 export function continueStatement(
-  label: t.Identifier | null = null,
+  label: t.Identifier | null | undefined = null,
 ): t.ContinueStatement {
   return {
     type: TYPE,

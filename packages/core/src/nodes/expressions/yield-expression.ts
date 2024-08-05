@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'YieldExpression';
 
 export function yieldExpression(
-  argument: t.Expression | null = null,
+  argument: t.Expression | null | undefined = null,
   delegate = false,
 ): t.YieldExpression {
   return {

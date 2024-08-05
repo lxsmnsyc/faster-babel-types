@@ -12,7 +12,7 @@ export function tsMethodSignature(
   parameters: Array<
     t.ArrayPattern | t.Identifier | t.ObjectPattern | t.RestElement
   >,
-  typeAnnotation: t.TSTypeAnnotation | null = null,
+  typeAnnotation: t.TSTypeAnnotation | null | undefined = null,
   kind: TSMethodSignatureKind = 'method',
 ): t.TSMethodSignature {
   return {

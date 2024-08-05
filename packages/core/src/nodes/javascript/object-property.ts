@@ -16,7 +16,7 @@ export function objectProperty(
   value: t.Expression | t.PatternLike,
   computed = false,
   shorthand = false,
-  decorators: t.Decorator[] | null = null,
+  decorators: t.Decorator[] | null | undefined = null,
 ): t.ObjectProperty {
   return {
     type: TYPE,

@@ -6,7 +6,7 @@ const TYPE = 'ImportExpression';
 
 export function importExpression(
   source: t.Expression,
-  options: t.Expression | null = null,
+  options: t.Expression | null | undefined = null,
 ): t.ImportExpression {
   return {
     type: TYPE,

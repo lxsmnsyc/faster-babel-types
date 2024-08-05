@@ -6,7 +6,7 @@ const TYPE = 'TSTypePredicate';
 
 export function tsTypePredicate(
   parameterName: t.Identifier | t.TSThisType,
-  typeAnnotation: t.TSTypeAnnotation | undefined | null = null,
+  typeAnnotation: t.TSTypeAnnotation | null | undefined = null,
   asserts: boolean | null | undefined = null,
 ): t.TSTypePredicate {
   return {

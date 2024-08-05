@@ -16,7 +16,7 @@ export function tsDeclareMethod(
   params: Array<
     t.Identifier | t.Pattern | t.RestElement | t.TSParameterProperty
   >,
-  returnType: t.TSTypeAnnotation | t.Noop | null = null,
+  returnType: t.TSTypeAnnotation | t.Noop | null | undefined = null,
 ): t.TSDeclareMethod {
   return {
     type: TYPE,

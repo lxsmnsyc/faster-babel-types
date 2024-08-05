@@ -14,7 +14,7 @@ export function jsxElement(
     | t.JSXElement
     | t.JSXFragment
   >,
-  selfClosing: boolean | null = null,
+  selfClosing: boolean | null | undefined = null,
 ): t.JSXElement {
   return {
     type: TYPE,

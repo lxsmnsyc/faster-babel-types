@@ -5,11 +5,11 @@ import { is } from '../../is-node-type';
 const TYPE = 'ExportNamedDeclaration';
 
 export function exportNamedDeclaration(
-  declaration: t.Declaration | null = null,
+  declaration: t.Declaration | null | undefined = null,
   specifiers: Array<
     t.ExportSpecifier | t.ExportDefaultSpecifier | t.ExportNamespaceSpecifier
   > = [],
-  source: t.StringLiteral | null = null,
+  source: t.StringLiteral | null | undefined = null,
 ): t.ExportNamedDeclaration {
   return {
     type: TYPE,

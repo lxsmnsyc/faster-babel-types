@@ -7,7 +7,7 @@ const TYPE = 'IfStatement';
 export function ifStatement(
   test: t.Expression,
   consequent: t.Statement,
-  alternate: t.Statement | null = null,
+  alternate: t.Statement | null | undefined = null,
 ): t.IfStatement {
   return {
     type: TYPE,

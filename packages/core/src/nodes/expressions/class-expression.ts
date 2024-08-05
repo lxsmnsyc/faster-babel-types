@@ -8,7 +8,7 @@ export function classExpression(
   id: t.Identifier | null | undefined,
   superClass: t.Expression | null | undefined,
   body: t.ClassBody,
-  decorators: t.Decorator[] | null = null,
+  decorators: t.Decorator[] | null | undefined = null,
 ): t.ClassExpression {
   return {
     type: TYPE,

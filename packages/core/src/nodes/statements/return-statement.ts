@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'ReturnStatement';
 
 export function returnStatement(
-  argument: t.Expression | null = null,
+  argument: t.Expression | null | undefined = null,
 ): t.ReturnStatement {
   return {
     type: TYPE,

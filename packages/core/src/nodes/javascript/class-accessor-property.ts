@@ -12,9 +12,14 @@ export function classAccessorProperty(
     | t.BigIntLiteral
     | t.Expression
     | t.PrivateName,
-  value: t.Expression | null = null,
-  typeAnnotation: t.TypeAnnotation | t.TSTypeAnnotation | t.Noop | null = null,
-  decorators: t.Decorator[] | null = null,
+  value: t.Expression | null | undefined = null,
+  typeAnnotation:
+    | t.TypeAnnotation
+    | t.TSTypeAnnotation
+    | t.Noop
+    | null
+    | undefined = null,
+  decorators: t.Decorator[] | null | undefined = null,
   computed = false,
   isStatic = false,
 ): t.ClassAccessorProperty {

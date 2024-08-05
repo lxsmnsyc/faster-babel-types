@@ -1,9 +1,10 @@
-// TSCallSignatureDeclaration | TSConstructSignatureDeclaration | TSPropertySignature | TSMethodSignature | TSIndexSignature
 export * from './ts-any-keyword';
 export * from './ts-array-type';
 export * from './ts-bigint-keyword';
 export * from './ts-boolean-keyword';
+export * from './ts-call-signature-declaration';
 export * from './ts-conditional-type';
+export * from './ts-construct-signature-declaration';
 export * from './ts-constructor-type';
 export * from './ts-declare-method';
 export * from './ts-expression-with-type-arguments';
@@ -16,6 +17,7 @@ export * from './ts-intersection-type';
 export * from './ts-intrinsic-keyword';
 export * from './ts-literal-type';
 export * from './ts-mapped-type';
+export * from './ts-method-signature';
 export * from './ts-named-tuple-member';
 export * from './ts-never-keyword';
 export * from './ts-null-keyword';
@@ -24,6 +26,7 @@ export * from './ts-object-keyword';
 export * from './ts-optional-type';
 export * from './ts-parameter-property';
 export * from './ts-parenthesized-type';
+export * from './ts-property-signature';
 export * from './ts-qualified-name';
 export * from './ts-rest-type';
 export * from './ts-string-keyword';

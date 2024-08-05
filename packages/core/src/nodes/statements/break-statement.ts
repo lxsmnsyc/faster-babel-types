@@ -4,7 +4,7 @@ import { is } from '../../is-node-type';
 
 const TYPE = 'BreakStatement';
 
-export function breakStatement(label: t.Identifier | null = null): t.BreakStatement {
+export function breakStatement(label: t.Identifier | null | undefined = null): t.BreakStatement {
   return {
     type: TYPE,
     label,
