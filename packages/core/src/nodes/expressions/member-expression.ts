@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'MemberExpression';
 
 export function memberExpression(
-  object: t.Expression | t.Super,
+  object: t.Expression,
   property: t.Expression | t.Identifier | t.PrivateName,
   computed = false,
   optional = false,
