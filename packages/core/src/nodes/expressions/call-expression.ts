@@ -5,7 +5,7 @@ import { is } from '../../is-node-type';
 const TYPE = 'CallExpression';
 
 export function callExpression(
-  callee: t.Expression | t.Super | t.V8IntrinsicIdentifier,
+  callee: t.Expression | t.V8IntrinsicIdentifier,
   args: Array<t.Expression | t.SpreadElement | t.ArgumentPlaceholder>,
 ): t.CallExpression {
   return {
