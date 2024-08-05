@@ -1,15 +1,15 @@
 import type * as t from '@babel/types';
-import { assert } from '../../assert-node-type';
-import { is } from '../../is-node-type';
+import { assert } from '../../../assert-node-type';
+import { is } from '../../../is-node-type';
 
-const TYPE = 'DeclareInterface';
+const TYPE = 'DeclareClass';
 
-export function declareInterface(
+export function declareClass(
   id: t.Identifier,
   typeParameters: t.TypeParameterDeclaration | null | undefined,
   interfaceExtends: t.InterfaceExtends[] | null | undefined,
   body: t.ObjectTypeAnnotation,
-): t.DeclareInterface {
+): t.DeclareClass {
   return {
     type: TYPE,
     id,
@@ -19,14 +19,14 @@ export function declareInterface(
   };
 }
 
-export function isDeclareInterface(
+export function isDeclareClass(
   node: t.Node | null | undefined,
-): node is t.DeclareInterface {
+): node is t.DeclareClass {
   return is(TYPE, node);
 }
 
-export function assertDeclareInterface(
+export function assertDeclareClass(
   node: t.Node | null | undefined,
-): asserts node is t.DeclareInterface {
+): asserts node is t.DeclareClass {
   assert(TYPE, node);
 }

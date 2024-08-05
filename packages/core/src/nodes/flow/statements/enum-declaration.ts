@@ -1,12 +1,16 @@
 import type * as t from '@babel/types';
-import { assert } from '../../assert-node-type';
-import { is } from '../../is-node-type';
+import { assert } from '../../../assert-node-type';
+import { is } from '../../../is-node-type';
 
 const TYPE = 'EnumDeclaration';
 
 export function enumDeclaration(
   id: t.Identifier,
-  body: t.EnumBooleanBody | t.EnumNumberBody | t.EnumStringBody | t.EnumSymbolBody,
+  body:
+    | t.EnumBooleanBody
+    | t.EnumNumberBody
+    | t.EnumStringBody
+    | t.EnumSymbolBody,
 ): t.EnumDeclaration {
   return {
     type: TYPE,

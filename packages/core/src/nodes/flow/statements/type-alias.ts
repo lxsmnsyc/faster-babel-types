@@ -1,6 +1,6 @@
 import type * as t from '@babel/types';
-import { assert } from '../../assert-node-type';
-import { is } from '../../is-node-type';
+import { assert } from '../../../assert-node-type';
+import { is } from '../../../is-node-type';
 
 const TYPE = 'TypeAlias';
 

@@ -4,4 +4,4 @@ export * from './javascript';
 export * from './jsx';
 export * from './misc';
 export * from './statements';
-export * from './typescript/misc';
+export * from './typescript';
