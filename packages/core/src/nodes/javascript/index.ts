@@ -10,6 +10,7 @@ export * from './class-property';
 export * from './decorator';
 export * from './directive';
 export * from './directive-literal';
+export * from './object-method';
 export * from './object-pattern';
 export * from './object-property';
 export * from './private-name';
