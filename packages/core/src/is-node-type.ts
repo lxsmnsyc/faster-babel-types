@@ -11,3 +11,15 @@ export function is<
 >(type: T, node: t.Node | null | undefined): node is P {
   return node != null && node.type === type;
 }
+
+export function either<
+  T extends t.Node['type'],
+  P extends Extract<
+    t.Node,
+    {
+      type: T;
+    }
+  >,
+>(types: Set<T>, node: t.Node | null | undefined): node is P {
+  return node != null && types.has(node.type as T);
+}
