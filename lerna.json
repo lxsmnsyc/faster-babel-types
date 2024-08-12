@@ -1,15 +1,15 @@
 {
-	"npmClient": "npm",
-	"packages": ["packages/*"],
-	"command": {
-		"version": {
-			"exact": true
-		},
-		"publish": {
-			"allowBranch": ["main", "next"],
-			"registry": "https://registry.npmjs.org/"
-		}
-	},
-	"version": "1.1.1",
-	"$schema": "node_modules/lerna/schemas/lerna-schema.json"
+  "npmClient": "npm",
+  "packages": ["packages/*"],
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "allowBranch": ["main", "next"],
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "version": "0.0.0",
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
