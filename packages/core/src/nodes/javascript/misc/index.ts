@@ -1,6 +1,7 @@
 export * from './argument-placeholder';
 export * from './array-pattern';
 export * from './assignment-pattern';
+export * from './catch-clause';
 export * from './class-accessor-property';
 export * from './class-body';
 export * from './class-method';
@@ -23,4 +24,6 @@ export * from './private-name';
 export * from './rest-element';
 export * from './spread-element';
 export * from './static-block';
+export * from './switch-case';
 export * from './v8-intrinsic-identifier';
+export * from './variable-declarator';
