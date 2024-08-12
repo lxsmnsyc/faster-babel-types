@@ -18,6 +18,7 @@ export * from './ts-intrinsic-keyword';
 export * from './ts-literal-type';
 export * from './ts-mapped-type';
 export * from './ts-method-signature';
+export * from './ts-module-block';
 export * from './ts-named-tuple-member';
 export * from './ts-never-keyword';
 export * from './ts-null-keyword';
