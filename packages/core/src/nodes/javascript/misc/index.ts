@@ -25,5 +25,6 @@ export * from './rest-element';
 export * from './spread-element';
 export * from './static-block';
 export * from './switch-case';
+export * from './template-element';
 export * from './v8-intrinsic-identifier';
 export * from './variable-declarator';
