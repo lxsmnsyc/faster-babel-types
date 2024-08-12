@@ -18,17 +18,6 @@ export function assert<
   }
 }
 
-function formatTypeSet<T extends t.Node['type']>(types: Set<T>): string {
-  let result = '';
-  for (const type of types) {
-    if (result !== '') {
-      result += ' | ';
-    }
-    result += '"' + type + '"';
-  }
-  return result;
-}
-
 export function assertEither<
   T extends t.Node['type'],
   P extends Extract<
@@ -37,14 +26,14 @@ export function assertEither<
       type: T;
     }
   >,
->(types: Set<T>, node: t.Node | null | undefined): asserts node is P {
+>(
+  name: string,
+  types: Set<T>,
+  node: t.Node | null | undefined,
+): asserts node is P {
   if (either(types, node)) {
     throw new Error(
-      'Expected type "' +
-        formatTypeSet(types) +
-        '" but instead got "' +
-        node.type +
-        '".',
+      'Expected type "' + name + '" but instead got "' + node.type + '".',
     );
   }
 }
